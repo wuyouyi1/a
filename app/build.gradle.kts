@@ -1,5 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
+//    alias(libs.plugins.android.application)
+    id("com.android.library")
+//    id("kotlin-android")
 }
 
 android {
@@ -9,11 +11,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.yindan.myapplication"
+//        applicationId = "com.yindan.myapplication"
         minSdk = 24
-        targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.1"
+//        targetSdk = 36
+//        versionCode = 1
+//        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
